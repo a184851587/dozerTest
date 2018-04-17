@@ -20,8 +20,10 @@ public class Test {
         List<Emp> emps = new ArrayList<>();
         emps.add(emp);
         emps.add(emp1);
+
         List<Emp> emps1 = new ArrayList<>();
         //list 转换
+
         DozerMapperConvert.getInstance1().map(emps,emps1);
         for (Emp emp2 : emps1) {
             System.out.println(emp2);

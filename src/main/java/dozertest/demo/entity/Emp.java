@@ -17,7 +17,6 @@ public class Emp {
         this.age = age;
         this.date = date;
     }
-
     public Emp() {
     }
 }
