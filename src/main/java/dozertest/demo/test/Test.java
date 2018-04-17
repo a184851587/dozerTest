@@ -11,6 +11,9 @@ public class Test {
         EmpVo empVo = new EmpVo();
         DozerMapperConvert.getInstance1().map(emp,empVo);
         System.out.println(empVo);
-
+        // merge test
+        /**
+         * ssssssssssssss
+         */
     }
 }
