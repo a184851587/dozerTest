@@ -25,6 +25,7 @@ public class Test {
         DozerMapperConvert.getInstance1().map(emps,emps1);
         for (Emp emp2 : emps1) {
             System.out.println(emp2);
+
         }
     }
 }

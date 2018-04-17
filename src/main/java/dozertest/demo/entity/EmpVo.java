@@ -13,4 +13,5 @@ public class EmpVo {
     private Integer age;
 
     private Date date;
+
 }
