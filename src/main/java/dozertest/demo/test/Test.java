@@ -1,6 +1,5 @@
 package dozertest.demo.test;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import dozertest.demo.dozer.DozerMapperConvert;
 import dozertest.demo.entity.Emp;
 import dozertest.demo.entity.EmpVo;
