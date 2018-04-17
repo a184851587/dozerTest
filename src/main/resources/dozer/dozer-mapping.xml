@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+        http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <!--全局配置 时间和字符串的转换 <mapping wildcard="true"> wildcard="true" 要加上-->
+    <configuration>
+        <date-format>yyyy-MM-dd</date-format>
+    </configuration>
+    <!--<mapping date-format="yyyy-MM-dd"> 为级别的配置 类中的所有date属性 通用转换-->
+    <mapping wildcard="true">
+        <class-a>dozertest.demo.entity.Emp</class-a>
+        <class-b>dozertest.demo.entity.EmpVo</class-b>
+       <!-- <field>
+            <a>name</a>
+            <b>value</b>
+        </field>-->
+        <!-- 属性级别：对类中的单个属性起作用-->
+     <!--  <field>
+        <a date-format="yyyy-MM-dd">date</a>
+        <b>date</b>
+        </field>-->
+    </mapping>
+</mappings>
